@@ -924,10 +924,94 @@ footer .logoImg img:last-of-type {
 
 /* HELP CENTER PAGE */
 
-.help_center nav {
+.Help_center nav {
+  padding: 1rem 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.Help_center nav {
+  background-color: var(--theme-gray);
+  color: var(--theme-dark);
+}
+
+.Help_center nav img {
+  max-height: 18px;
+  vertical-align: middle;
+  max-width: 144px;
+}
+
 /* HELP CENTER PAGE */
+
+main {
+  margin-top: 4.5rem;
+}
+
+.help_center_hero {
+  padding: 2.5rem;
+  height: 50vh;
+  background-image: url("./assets/center_bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--theme-lighter-gray2);
+  text-align: center;
+}
+
+.help_center_hero .container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.help_center_hero .help_center_hero_details h1 {
+  font-size: 3rem;
+}
+
+.help_center_hero_input-para {
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+}
+
+.help_center_hero_input-para .input {
+  width: 100%;
+  position: relative;
+}
+
+.help_center_hero_input-para .input input {
+  width: 100%;
+  padding: 14px;
+  padding-left: 2.5rem;
+  margin-bottom: 20px;
+  border-radius: 150px;
+  outline: none;
+  border: none;
+  color: var(--theme-mid-dark);
+}
+
+.help_center_hero_input-para .input i {
+  position: absolute;
+  color: var(--theme-mid-dark);
+  font-size: 25px;
+  top: 28%;
+  left: 2%;
+}
+
+::placeholder {
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.help_center_hero a {
+  color: var(--main-theme);
+}
+
+.help_center_hero a:hover {
+  text-decoration: underline;
+}
