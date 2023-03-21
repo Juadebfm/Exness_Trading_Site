@@ -907,28 +907,27 @@ footer .logoImg img:last-of-type {
     flex-direction: column;
   }
 
-.links {
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  gap: 3rem;
-}
+  .links {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 3rem;
+  }
 
-.links ul:nth-child(3) {
-  font-size: 95%;
-}
+  .links ul:nth-child(3) {
+    font-size: 95%;
+  }
 }
 
 /* xxxFOOTER SECTION MEDIA QUERIES */
 /* FOOTER */
 
-
-
-
-
-
 /* HELP CENTER PAGE */
 
-
+.help_center nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* HELP CENTER PAGE */
