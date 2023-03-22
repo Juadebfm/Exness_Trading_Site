@@ -942,11 +942,11 @@ footer .logoImg img:last-of-type {
   max-width: 144px;
 }
 
-/* HELP CENTER PAGE */
-
 main {
   margin-top: 4.5rem;
 }
+
+/* HELP CENTER PAGE */
 
 .help_center_hero {
   padding: 2.5rem;
@@ -1037,7 +1037,7 @@ main {
 
 .help_center_buttons .btns_grid .btn_box {
   border: 1px solid var(--theme-lighter-gray);
-  padding: 18px 25px;
+  padding: 25px 25px;
   text-align: center;
   font-weight: 500;
   border-radius: 3px;
@@ -1047,7 +1047,7 @@ main {
 .help_center_buttons .btns_single {
   width: 100%;
   border: 1px solid var(--theme-lighter-gray);
-  padding: 18px 25px;
+  padding: 25px 25px;
   text-align: center;
   font-weight: 500;
   border-radius: 3px;
@@ -1108,3 +1108,30 @@ main {
 .details_right ul li a:hover {
   text-decoration: underline;
 }
+
+/* HELP CENTER PAGE */
+
+/* HELP CENTER CTA */
+.help-center-CTA {
+  background-color: #ddd;
+  padding: 18px 35px;
+  width: 90%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.help-center-CTA p:first-of-type {
+  margin-bottom: 22px;
+  font-weight: 700;
+  color: var(--theme-mid-dark);
+}
+
+.help-center-CTA p:last-of-type {
+  font-size: 90%;
+  font-weight: 300;
+}
+
+.help-center-CTA p:last-of-type span {
+  color: rgba(3, 118, 188, 1);
+}
+/* HELP CENTER CTA */
