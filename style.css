@@ -996,9 +996,9 @@ main {
 
 .help_center_hero_input-para .input i {
   position: absolute;
-  color: var(--theme-mid-dark);
+  color: var(--theme-lighter-gray);
   font-size: 25px;
-  top: 28%;
+  top: 18%;
   left: 2%;
 }
 
@@ -1114,7 +1114,7 @@ main {
 /* HELP CENTER CTA */
 .help-center-CTA {
   background-color: #ddd;
-  padding: 18px 35px;
+  padding: 20px 35px;
   width: 90%;
   margin: auto;
   border-radius: 8px;
@@ -1135,3 +1135,20 @@ main {
   color: rgba(3, 118, 188, 1);
 }
 /* HELP CENTER CTA */
+
+.Help_center footer {
+  padding: 0;
+  margin-top: 4.5rem;
+  margin-bottom: 3.5rem;
+  border-top: 1px solid #ccc;
+}
+
+.Help_center footer .companyDetContents {
+  padding: 1rem 5rem;
+  margin-top: 3rem;
+}
+
+.Help_center footer .copy {
+  font-size: 80%;
+  color: var(--theme-lighter-gray);
+}
