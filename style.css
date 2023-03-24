@@ -924,6 +924,117 @@ footer .logoImg img:last-of-type {
 
 /* HELP CENTER PAGE */
 
+.sticky-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.sticky-button .secBtn {
+  background-color: var(--main-theme);
+  color: var(--theme-dark);
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.sticky-button .secBtn i {
+  font-size: 20px;
+  padding: 0;
+}
+
+.sticky-button .secBtn:hover {
+  box-shadow: 0px 0px 5px #363d42;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  right: 1%;
+  top: 32%;
+  width: 30%;
+  height: 100%;
+  overflow: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--theme-mid-dark);
+  color: var(--theme-light);
+  padding: 15px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto 0% auto;
+  padding: 0px;
+  border: 1px solid #888;
+  /* width: 70%; */
+}
+
+.modal-contents {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-contents > div {
+  margin-top: 12px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 13px;
+  background-color: var(--theme-lighter-gray);
+  color: var(--theme-light);
+}
+
+.modal-contents small {
+  font-size: 70%;
+}
+
+.chatbox {
+  background-color: var(--theme-lighter-gray);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatbox i {
+  font-size: 40px;
+  flex: 1;
+  padding-left: 7px;
+}
+
+.chatbox textarea {
+  flex: 7;
+  font-family: inherit;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--theme-lighter-gray);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .Help_center nav {
   padding: 1rem 5rem;
   display: flex;
@@ -942,7 +1053,7 @@ footer .logoImg img:last-of-type {
   max-width: 144px;
 }
 
-main {
+.Help_center main {
   margin-top: 4.5rem;
 }
 

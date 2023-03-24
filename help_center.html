@@ -24,6 +24,46 @@
     <title>Exness | Help Center</title>
   </head>
   <body class="Help_center">
+    <!-- MODAL BUTTON -->
+    <div class="sticky-button">
+      <button id="popup-btn" class="secBtn">
+        <i class="bx bx-message-alt"></i> <span>Let's Chat</span>
+      </button>
+    </div>
+    <!-- MODAL BUTTON -->
+    <!-- MODAL POPUP -->
+    <div id="popup-modal" class="modal">
+      <div class="modal-content">
+        <!-- MODAL HEADER -->
+        <div class="modal-header">
+          Waiting...
+          <span class="close">&times;</span>
+        </div>
+        <!-- MODAL HEADER -->
+        <!-- MODAL CONTENTS -->
+        <div class="modal-contents">
+          <small>Chat started at 2:40 PM</small>
+          <div class="chat_options">
+            Hi there! I'm the Exness Virtual Assistant 👋
+          </div>
+          <div class="chat_options">
+            I'm here for any questions you may have about trading with Exness.
+          </div>
+          <div class="chat_options">What can I help you with today?</div>
+        </div>
+        <!-- MODAL CONTENTS -->
+      </div>
+      <div class="chatbox">
+        <i class="bx bx-menu-alt-left"></i>
+        <textarea
+          name="messages"
+          id=""
+          placeholder="Type your messages here..."
+        ></textarea>
+      </div>
+    </div>
+    <!-- MODAL POPUP -->
+
     <!-- NAV SECTION -->
     <nav>
       <div class="logo">
@@ -193,7 +233,6 @@
         </p>
         <div class="copy">&#169; 2008 - 2022 Exness</div>
       </div>
-      
     </footer>
 
     <!-- FOOTER -->
@@ -215,5 +254,6 @@
     ></script>
 
     <!-- GOOGLE TRANSLATE -->
+    <script src="./index.js"></script>
   </body>
 </html>
