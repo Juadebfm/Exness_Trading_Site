@@ -74,6 +74,27 @@ button {
   box-shadow: 0px 0px 2px var(--main-theme);
 }
 
+.messageBtn {
+  background-color: var(--main-theme);
+  color: var(--theme-light);
+  padding: 0.7rem;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 5px var(--theme-dark);
+}
+
+.messageBtn:hover {
+  transform: translateY(5%);
+  box-shadow: 0px 0px 10px var(--theme-dark);
+}
+
+.messageBtn i {
+  text-align: center;
+}
 .secBtn:hover {
   box-shadow: 0px 0px 10px var(--main-theme);
 }
@@ -365,10 +386,12 @@ nav .navCTA i:last-child {
 
 .withdrawal .link {
   text-decoration: underline;
+  margin-bottom: 3rem;
 }
 
 .withdrawal img {
-  width: 100%;
+  margin-top: 4rem;
+  width: 85%;
 }
 
 /* WITHDRWAL SECTION MEDIA QUERIES */
@@ -427,6 +450,7 @@ nav .navCTA i:last-child {
 
 .exe_transparent .execution .link,
 .exe_transparent .transparent .link {
+  color: var(--theme-light);
   font-size: 16px;
   text-decoration: underline;
 }
@@ -467,12 +491,13 @@ nav .navCTA i:last-child {
 /* EXECUTION SECTION STYLING */
 /* ACCOUNTS SECTION */
 .accounts {
-  height: 90vh;
+  height: 100vh;
   padding: 1.5rem;
   background-color: var(--theme-light);
 }
 
 .accounts h3 {
+  margin-top: 3rem;
   text-align: center;
   font-weight: 600;
   font-size: 36.2px;
@@ -537,14 +562,20 @@ nav .navCTA i:last-child {
 .accounts .accounts_types .professional button {
   display: block;
   margin-left: auto;
-  padding: 0.7rem 2.5rem;
+  padding: 0.7rem 3.5rem;
   background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .accounts .accounts_types .standard button {
-  border: 1px solid var(--theme-gray);
+  border: 1px solid var(--main-theme);
   border-radius: 6px;
-  color: var(--theme-gray);
+  color: var(--main-theme);
+}
+
+.accounts .accounts_types .standard button:hover {
+  background-color: #ffd0013d;
 }
 
 .accounts .accounts_types .professional button {
@@ -555,7 +586,7 @@ nav .navCTA i:last-child {
 
 /* ACCOUNTS SECTION MEDIA QUERIES */
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (max-width: 992px) {
   .accounts {
     height: 80vh;
     padding: 0.5rem;
@@ -651,7 +682,7 @@ nav .navCTA i:last-child {
 
 /* TESTIMONIALS SECTION MEDIA QUERIES */
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (max-width: 992px) {
   .testimonials {
     flex-direction: column;
     margin-top: 18rem;
@@ -735,7 +766,7 @@ nav .navCTA i:last-child {
 
 /* CTA SECTION MEDIA QUERIES */
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (max-width: 992px) {
   .CTA {
     height: 35vh;
     padding: 1rem;
@@ -780,7 +811,7 @@ nav .navCTA i:last-child {
 
 /* LINKS SECTION MEDIA QUERIES */
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (max-width: 992px) {
   .links {
     padding: 2rem 1rem;
     flex-wrap: wrap;
@@ -873,6 +904,7 @@ footer .logoImg img:last-of-type {
 .footerProper .legals div {
   font-size: 13px;
   font-weight: 400;
+  color: var(--theme-lighter-gray);
 }
 
 /* FOOTER SECTION MEDIA QUERIES */
